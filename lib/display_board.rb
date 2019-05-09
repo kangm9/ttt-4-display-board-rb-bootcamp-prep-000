@@ -18,3 +18,11 @@ def display_board(board)
   puts "   |   |   "
 end
 
+board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+def display_board(board)
+  puts " O |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end
